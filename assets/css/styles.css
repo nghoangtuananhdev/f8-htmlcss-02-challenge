@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+
+  /* For Firefox */
+  scrollbar-width: none;
+
+  /* For Internet Explorer and Legacy Edge */
+  -ms-overflow-style: none;
+}
+
+/* For Chrome, Safari, and Chromium-based Edge / Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  margin-top: 52px;
+}
+
+.header .nav-bar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.header .nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 235px;
+  margin-top: 1px;
+  padding-left: 0;
+}
+
+.header .nav-item {
+  list-style-type: none;
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 39px;
+}
+
+.header .nav-item:first-of-type {
+  margin-left: 0px;
+}
+
+.header .selected-nav-item {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.header .header-cta {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header .sign-in {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 24px;
+}
+
+.header .btn-sign-up {
+  display: inline-block;
+  width: 108px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.header .btn-sign-up:hover {
+  background-color: #1ebfc1;
+  color: #fff;
+}
