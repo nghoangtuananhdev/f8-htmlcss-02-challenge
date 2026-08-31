@@ -11,7 +11,7 @@ body {
   scroll-behavior: smooth;
   overscroll-behavior: none;
 
-  /* For Firefox */
+  /* For Firefox
   scrollbar-width: none;
 
   /* For Internet Explorer and Legacy Edge */
@@ -19,10 +19,10 @@ body {
 }
 
 /* For Chrome, Safari, and Chromium-based Edge / Opera */
-html::-webkit-scrollbar,
+/* html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-  display: none;
-}
+  display: none; 
+} */
 
 body {
   font-size: 1.6rem;
@@ -47,10 +47,15 @@ a:visited {
 
 /* Header */
 .header {
+  position: sticky;
+  top: 8px;
+  background-color: #fff;
+  z-index: 100;
   margin-top: 52px;
 }
 
 .header .nav-bar {
+  position: sticky;
   display: flex;
   align-items: center;
   height: 48px;
@@ -80,6 +85,10 @@ a:visited {
   color: #2f3a3b;
   font-size: 1.6rem;
   font-weight: 600;
+} 
+
+.header .nav-item:hover {
+  cursor: pointer;
 }
 
 .header .header-cta {
