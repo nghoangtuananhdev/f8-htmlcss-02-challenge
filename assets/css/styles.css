@@ -314,7 +314,7 @@ a:visited {
   height: 33px;
   border-radius: 33px;
   background-color: #1EBFC1;
-  background-image: url(/assets/img/user-one.svg);
+  background-image: url(../img/user-one.svg);
 }
 
 .active-students-block .rounded-avatar:not(:first-child) {
@@ -323,17 +323,17 @@ a:visited {
 
 .active-students-block .rounded-avatar:nth-child(2) {
   background-color: #FFC147;
-  background-image: url(/assets/img/user-2.svg);
+  background-image: url(../img/user-2.svg);
 }
 
 .active-students-block .rounded-avatar:nth-child(3) {
   background-color: #FF947A;
-  background-image: url(/assets/img/user-3.svg);
+  background-image: url(../img/user-3.svg);
 }
 
 .active-students-block .rounded-avatar:nth-child(4) {
   background-color: #BF83FF;
-  background-image: url(/assets/img/user-4.svg);
+  background-image: url(../img/user-4.svg);
 }
 
 .active-students-block .rounded-avatar:nth-child(5) {
