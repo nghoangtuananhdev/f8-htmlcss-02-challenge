@@ -60,7 +60,8 @@ a:visited {
   position: sticky;
   display: flex;
   align-items: center;
-  height: 48px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header .nav-list {
