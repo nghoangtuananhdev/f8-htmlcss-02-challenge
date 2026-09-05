@@ -579,3 +579,286 @@ a:visited {
   font-size: 1.4rem;
   font-weight: 400;
 }
+
+/* Stat */
+
+.stat {
+  margin-top: 389px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 862px;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat .col .stat-num {
+  display: inline-block;
+  height: 93px;  
+  color: #0D1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.stat .col .desc {
+  margin-top: 11px;
+  color: #767E7E;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* Review */
+
+.review {
+  margin-top: 264px;
+}
+
+.review .main-content {
+  flex-direction: row;
+}
+
+.review .review-quote {
+  width: 36%;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+.review .review-avatars {
+  position: relative;
+  width: calc(100% - 36%);
+  /* height: 100%; */
+}
+
+.review-quote .review-paragraph {
+  margin-top: 27px;
+  color: #5D6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 150%; /* 150% */
+}
+
+.review-quote .author-block {
+  margin-top: 33px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.author-block .hyphen {
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.author-block .author-name {
+  color: #767E7E;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.author-block .author-name strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 550;
+}
+
+.review-quote .review-control {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 52px;
+}
+
+.review-control .rounded-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #2AC9BF;
+}
+
+.review-control .rounded-circle:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.review-avatars .ava-1 {
+  position: absolute;
+  left: 216px;
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+  background: url(../img/review-user-1.svg) #1EBFC1 50% / cover no-repeat;
+}
+
+.review-avatars .ava-2 {
+  position: absolute;
+  /* left: 216px; */
+  right: 0;
+  top: 19px;
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  background: url(../img/review-user-2.svg) #BF83FF 50% / cover no-repeat;
+}
+
+.review-avatars .ava-3 {
+  position: absolute;
+  left: 72px;
+  top: 258px;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: url(../img/review-user-3.svg) #FFC147 50% / cover no-repeat;
+}
+
+.review-avatars .ava-4 {
+  position: absolute;
+  left: 345px;
+  top: calc(15px + 92px);
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  background: url(../img/review-user-4.svg) #FF8282 50% / cover no-repeat;
+}
+
+.review-avatars .ava-5 {
+  position: absolute;
+  left: 284px;
+  top: calc(311px + 92px);
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: url(../img/review-user-5.svg) #FF947A 50% / cover no-repeat;
+}
+
+.review-avatars .ava-6 {
+  position: absolute;
+  left: 641px;
+  top: calc(282px + 92px);
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: url(../img/review-user-6.svg) #B1DFDC 50% / cover no-repeat;
+}
+
+/* CTA Section */
+
+.cta-section {
+  margin-top: 130px;
+  background: #DEF6F5;
+}
+
+.cta-section-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 76px;
+  padding-bottom: 88px;  
+}
+
+.cta-section-heading {
+  height: 63px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.cta-section-desc {
+  margin-top: 18px;
+  color: #767E7E;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.cta-section-btn {
+   margin-left: 410px;
+   display: inline-block;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2AC9BF;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 68px;
+}
+
+.cta-section-btn:hover {
+  opacity: 0.8;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 130px;
+  padding-bottom: 50px;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .logo {
+  width: 127px;
+  height: 37px;
+}
+
+.footer-col:not(:last-of-type) {
+  margin-left: 144px;
+}
+
+.footer-col:last-of-type {
+  margin-left: 137px;
+}
+
+.footer-col .footer-heading {
+  color: #2E2E2E;
+  font-size: 1.8rem;
+  font-weight: 550;
+}
+
+.footer-col:not(last-of-type) .footer-heading {
+  margin-bottom: 25px;
+}
+
+.footer-col:last-of-type .footer-heading {
+  margin-bottom: 18px;
+}
+
+.footer .footer-item a {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer .footer-item:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.footer-col:last-of-type .footer-item a img {
+  margin-right: 9px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.footer-copyright .desc {
+  color: #B0B5B4;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+
